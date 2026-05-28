@@ -10,7 +10,7 @@ export default function Home() {
 
           {/* AMAZONIA AEREA */}
           <img
-  src="/images/hero-amazonia.jpg"
+  src="/images/hero-amazonia.png"
   alt="Amazonia"
   className="w-full h-full object-cover"
 />
