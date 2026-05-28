@@ -127,10 +127,10 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
 
             {[
-              ["📚", "Documentacao", "Registro e preservacao de linguas ameacadas."],
-              ["👥", "Formacao", "Capacitacao de pesquisadores e agentes comunitarios."],
-              ["🌎", "Pesquisa", "Conhecimento cientifico colaborativo na Amazonia."],
-              ["🌿", "Valorizacao", "Fortalecimento cultural e transmissao intergeracional."]
+              ["📚", "Documentação", "Registro e preservacao de línguas ameaçadas."],
+              ["👥", "Formação", "Capacitação de pesquisadores e agentes comunitários."],
+              ["🌎", "Pesquisa", "Conhecimento científico colaborativo na Amazônia."],
+              ["🌿", "Valorização", "Fortalecimento cultural e transmissão intergeracional."]
             ].map((item, index) => (
 
               <div
@@ -173,21 +173,21 @@ export default function Home() {
             </div>
 
             <h2 className="text-5xl md:text-6xl font-black leading-tight mb-8 text-[#10281f]">
-              Ciencia, territorio
+              Ciência, território
               <br />
-              e memoria cultural.
+              e memória cultural.
             </h2>
 
             <p className="text-xl text-gray-700 leading-relaxed mb-8">
-              Trabalhamos em parceria com comunidades indigenas,
-              pesquisadores e instituicoes culturais para fortalecer
-              a transmissao linguistica entre geracoes.
+              Trabalhamos em parceria com comunidades indígenas,
+              pesquisadores e instituições culturais para fortalecer
+              a transmissão linguística entre gerações.
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed mb-10">
-              Desenvolvemos iniciativas de documentacao linguistica,
+              Desenvolvemos iniciativas de documentação linguística,
               arquivos audiovisuais e tecnologias digitais voltadas
-              a preservacao dos patrimonios culturais amazonicos.
+              a preservação dos patrimonios culturais amazônicos.
             </p>
 
             <button className="bg-emerald-800 hover:bg-emerald-700 text-white px-8 py-4 rounded-2xl font-semibold transition">
@@ -291,14 +291,14 @@ export default function Home() {
           </div>
 
           <h2 className="text-5xl md:text-6xl font-black leading-tight mb-10">
-            Cada lingua preservada
+            Cada língua preservada
             <br />
-            mantem viva uma visao unica do mundo.
+            mantem viva uma visao única do mundo.
           </h2>
 
           <p className="text-xl text-gray-100 leading-relaxed mb-12">
-            Preservar linguas significa preservar biodiversidade,
-            espiritualidade e memorias ancestrais da Amazonia.
+            Preservar línguas significa preservar biodiversidade,
+            espiritualidade e memorias ancestrais da Amazônia.
           </p>
 
           <div className="flex justify-center flex-wrap gap-6">
