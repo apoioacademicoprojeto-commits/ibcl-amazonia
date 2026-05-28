@@ -8,16 +8,17 @@ export default function Home() {
         {/* BACKGROUND */}
         <div className="absolute inset-0">
 
+          {/* AMAZONIA AEREA */}
           <img
-            src="https://images.unsplash.com/photo-1473773508845-188df298d2d1?q=80&w=2200&auto=format&fit=crop"
+            src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=2200&auto=format&fit=crop"
             alt="Amazonia"
             className="w-full h-full object-cover"
           />
 
-          {/* Overlay Amazônico */}
+          {/* OVERLAY */}
           <div className="absolute inset-0 bg-gradient-to-r from-[#0b2418]/55 via-[#123524]/30 to-transparent"></div>
 
-          {/* Glow Verde */}
+          {/* GLOW */}
           <div className="absolute inset-0 bg-emerald-900/10"></div>
 
         </div>
@@ -125,73 +126,33 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
 
-            {/* CARD */}
-            <div className="bg-[#163524]/45 backdrop-blur-xl border border-white/10 rounded-[2rem] p-8 shadow-2xl hover:-translate-y-2 transition duration-300">
+            {[
+              ["📚", "Documentacao", "Registro e preservacao de linguas ameacadas."],
+              ["👥", "Formacao", "Capacitacao de pesquisadores e agentes comunitarios."],
+              ["🌎", "Pesquisa", "Conhecimento cientifico colaborativo na Amazonia."],
+              ["🌿", "Valorizacao", "Fortalecimento cultural e transmissao intergeracional."]
+            ].map((item, index) => (
 
-              <div className="w-16 h-16 rounded-full bg-emerald-900/50 flex items-center justify-center text-3xl mb-6">
-                📚
+              <div
+                key={index}
+                className="bg-[#163524]/45 backdrop-blur-xl border border-white/10 rounded-[2rem] p-8 shadow-2xl hover:-translate-y-2 transition duration-300"
+              >
+
+                <div className="w-16 h-16 rounded-full bg-emerald-900/50 flex items-center justify-center text-3xl mb-6">
+                  {item[0]}
+                </div>
+
+                <h3 className="text-2xl font-bold mb-4">
+                  {item[1]}
+                </h3>
+
+                <p className="text-gray-100 leading-relaxed">
+                  {item[2]}
+                </p>
+
               </div>
 
-              <h3 className="text-2xl font-bold mb-4">
-                Documentacao
-              </h3>
-
-              <p className="text-gray-100 leading-relaxed">
-                Registro e preservacao de linguas ameacadas.
-              </p>
-
-            </div>
-
-            {/* CARD */}
-            <div className="bg-[#163524]/45 backdrop-blur-xl border border-white/10 rounded-[2rem] p-8 shadow-2xl hover:-translate-y-2 transition duration-300">
-
-              <div className="w-16 h-16 rounded-full bg-emerald-900/50 flex items-center justify-center text-3xl mb-6">
-                👥
-              </div>
-
-              <h3 className="text-2xl font-bold mb-4">
-                Formacao
-              </h3>
-
-              <p className="text-gray-100 leading-relaxed">
-                Capacitacao de pesquisadores e agentes comunitarios.
-              </p>
-
-            </div>
-
-            {/* CARD */}
-            <div className="bg-[#163524]/45 backdrop-blur-xl border border-white/10 rounded-[2rem] p-8 shadow-2xl hover:-translate-y-2 transition duration-300">
-
-              <div className="w-16 h-16 rounded-full bg-emerald-900/50 flex items-center justify-center text-3xl mb-6">
-                🌎
-              </div>
-
-              <h3 className="text-2xl font-bold mb-4">
-                Pesquisa
-              </h3>
-
-              <p className="text-gray-100 leading-relaxed">
-                Conhecimento cientifico colaborativo na Amazonia.
-              </p>
-
-            </div>
-
-            {/* CARD */}
-            <div className="bg-[#163524]/45 backdrop-blur-xl border border-white/10 rounded-[2rem] p-8 shadow-2xl hover:-translate-y-2 transition duration-300">
-
-              <div className="w-16 h-16 rounded-full bg-emerald-900/50 flex items-center justify-center text-3xl mb-6">
-                🌿
-              </div>
-
-              <h3 className="text-2xl font-bold mb-4">
-                Valorizacao
-              </h3>
-
-              <p className="text-gray-100 leading-relaxed">
-                Fortalecimento cultural e transmissao intergeracional.
-              </p>
-
-            </div>
+            ))}
 
           </div>
 
@@ -238,17 +199,17 @@ export default function Home() {
           {/* IMAGENS */}
           <div className="relative">
 
-            {/* MAIN IMAGE */}
+            {/* AMAZONIA RIO */}
             <img
-              src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=1400&auto=format&fit=crop"
-              alt="Amazonia"
+              src="https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?q=80&w=1400&auto=format&fit=crop"
+              alt="Rio Amazonico"
               className="rounded-[2rem] shadow-2xl"
             />
 
-            {/* FLOAT IMAGE */}
+            {/* FLORESTA AMAZONICA */}
             <img
-              src="https://images.unsplash.com/photo-1465379944081-7f47de8d74ac?q=80&w=900&auto=format&fit=crop"
-              alt="Amazonia"
+              src="https://images.unsplash.com/photo-1473773508845-188df298d2d1?q=80&w=900&auto=format&fit=crop"
+              alt="Floresta Amazonica"
               className="absolute -bottom-10 -right-10 w-64 rounded-[1.5rem] border-4 border-white shadow-2xl hidden md:block"
             />
 
@@ -263,12 +224,12 @@ export default function Home() {
 
         <div className="max-w-7xl mx-auto rounded-[2.5rem] overflow-hidden relative">
 
-          {/* BACKGROUND */}
+          {/* BG */}
           <div className="absolute inset-0">
 
             <img
-              src="https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?q=80&w=2000&auto=format&fit=crop"
-              alt="Rio Amazonico"
+              src="https://images.unsplash.com/photo-1465379944081-7f47de8d74ac?q=80&w=2000&auto=format&fit=crop"
+              alt="Amazonia"
               className="w-full h-full object-cover"
             />
 
@@ -279,53 +240,26 @@ export default function Home() {
           {/* CONTENT */}
           <div className="relative grid md:grid-cols-4 gap-10 px-10 py-16 text-center">
 
-            <div>
+            {[
+              ["40+", "Linguas em documentacao"],
+              ["120+", "Comunidades parceiras"],
+              ["250+", "Pesquisadores colaboradores"],
+              ["15", "Anos de atuacao na Amazonia"]
+            ].map((item, index) => (
 
-              <div className="text-5xl font-black text-green-200 mb-4">
-                40+
+              <div key={index}>
+
+                <div className="text-5xl font-black text-green-200 mb-4">
+                  {item[0]}
+                </div>
+
+                <p className="text-gray-100">
+                  {item[1]}
+                </p>
+
               </div>
 
-              <p className="text-gray-100">
-                Linguas em documentacao
-              </p>
-
-            </div>
-
-            <div>
-
-              <div className="text-5xl font-black text-green-200 mb-4">
-                120+
-              </div>
-
-              <p className="text-gray-100">
-                Comunidades parceiras
-              </p>
-
-            </div>
-
-            <div>
-
-              <div className="text-5xl font-black text-green-200 mb-4">
-                250+
-              </div>
-
-              <p className="text-gray-100">
-                Pesquisadores colaboradores
-              </p>
-
-            </div>
-
-            <div>
-
-              <div className="text-5xl font-black text-green-200 mb-4">
-                15
-              </div>
-
-              <p className="text-gray-100">
-                Anos de atuacao na Amazonia
-              </p>
-
-            </div>
+            ))}
 
           </div>
 
@@ -384,7 +318,7 @@ export default function Home() {
       </section>
 
       {/* FOOTER */}
-      <footer className="bg-[#08150f] py-16 text-gray-400">
+      <footer className="bg-[#0b2418] py-16 text-gray-300 border-t border-emerald-900/40">
 
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10">
 
@@ -445,7 +379,7 @@ export default function Home() {
 
         </div>
 
-        <div className="max-w-7xl mx-auto px-6 mt-12 pt-8 border-t border-white/10 text-sm text-gray-500">
+        <div className="max-w-7xl mx-auto px-6 mt-12 pt-8 border-t border-white/10 text-sm text-gray-400">
           © 2026 IBCL Amazonia. Todos os direitos reservados.
         </div>
 
