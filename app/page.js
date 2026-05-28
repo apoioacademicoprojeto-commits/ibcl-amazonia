@@ -53,11 +53,11 @@ export default function Home() {
               </a>
 
               <a href="#" className="hover:text-green-200 transition">
-                Atuacao
+                Atuação
               </a>
 
               <a href="#" className="hover:text-green-200 transition">
-                Linguas
+                Línguas
               </a>
 
               <a href="#" className="hover:text-green-200 transition">
@@ -91,13 +91,13 @@ export default function Home() {
               </div>
 
               <h2 className="text-6xl md:text-8xl font-black leading-[0.95] mb-8">
-                Preservar linguas
+                Preservar línguas
                 <br />
                 e preservar futuros.
               </h2>
 
               <p className="text-xl md:text-2xl text-gray-100 leading-relaxed max-w-2xl mb-12">
-                O IBCL Amazonia atua na documentacao,
+                O IBCL Amazônia atua na documentação,
                 valorizacao e fortalecimento das linguas
                 indigenas e conhecimentos ancestrais
                 da floresta amazonica.
