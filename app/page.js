@@ -93,14 +93,14 @@ export default function Home() {
               <h2 className="text-6xl md:text-8xl font-black leading-[0.95] mb-8">
                 Preservar línguas
                 <br />
-                e preservar futuros.
+                e fortalecer culturas.
               </h2>
 
               <p className="text-xl md:text-2xl text-gray-100 leading-relaxed max-w-2xl mb-12">
                 O IBCL Amazônia atua na documentação,
-                valorizacao e fortalecimento das linguas
-                indigenas e conhecimentos ancestrais
-                da floresta amazonica.
+                valorização e fortalecimento das línguas
+                indígenas e conhecimentos ancestrais
+                da floresta amazônica.
               </p>
 
               <div className="flex flex-wrap gap-5">
