@@ -9,21 +9,21 @@ export default function Home() {
         <div className="absolute inset-0">
 
           <img
-            src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2200&auto=format&fit=crop"
+            src="https://images.unsplash.com/photo-1473773508845-188df298d2d1?q=80&w=2200&auto=format&fit=crop"
             alt="Amazonia"
             className="w-full h-full object-cover"
           />
 
-          {/* Overlay suave amazônico */}
+          {/* Overlay Amazônico */}
           <div className="absolute inset-0 bg-gradient-to-r from-[#0b2418]/55 via-[#123524]/30 to-transparent"></div>
 
-          {/* Glow verde suave */}
+          {/* Glow Verde */}
           <div className="absolute inset-0 bg-emerald-900/10"></div>
 
         </div>
 
         {/* NAVBAR */}
-        <header className="relative z-20 backdrop-blur-md bg-white/5 border-b border-white/10">
+        <header className="relative z-20 bg-[#0b2418] border-b border-emerald-900/40 shadow-xl">
 
           <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
 
@@ -70,7 +70,7 @@ export default function Home() {
             </nav>
 
             {/* BUTTON */}
-            <button className="bg-emerald-700/90 hover:bg-emerald-600 transition px-6 py-3 rounded-2xl font-semibold shadow-2xl">
+            <button className="bg-emerald-700 hover:bg-emerald-600 transition px-6 py-3 rounded-2xl font-semibold shadow-2xl">
               Apoie
             </button>
 
@@ -240,15 +240,15 @@ export default function Home() {
 
             {/* MAIN IMAGE */}
             <img
-              src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop"
+              src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=1400&auto=format&fit=crop"
               alt="Amazonia"
               className="rounded-[2rem] shadow-2xl"
             />
 
             {/* FLOAT IMAGE */}
             <img
-              src="https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=700&auto=format&fit=crop"
-              alt="Comunidade"
+              src="https://images.unsplash.com/photo-1465379944081-7f47de8d74ac?q=80&w=900&auto=format&fit=crop"
+              alt="Amazonia"
               className="absolute -bottom-10 -right-10 w-64 rounded-[1.5rem] border-4 border-white shadow-2xl hidden md:block"
             />
 
@@ -267,7 +267,7 @@ export default function Home() {
           <div className="absolute inset-0">
 
             <img
-              src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=2000&auto=format&fit=crop"
+              src="https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?q=80&w=2000&auto=format&fit=crop"
               alt="Rio Amazonico"
               className="w-full h-full object-cover"
             />
@@ -340,7 +340,7 @@ export default function Home() {
         <div className="absolute inset-0">
 
           <img
-            src="https://images.unsplash.com/photo-1473773508845-188df298d2d1?q=80&w=2000&auto=format&fit=crop"
+            src="https://images.unsplash.com/photo-1511497584788-876760111969?q=80&w=2200&auto=format&fit=crop"
             alt="Amazonia"
             className="w-full h-full object-cover"
           />
