@@ -200,18 +200,18 @@ export default function Home() {
           <div className="relative">
 
             {/* AMAZONIA RIO */}
-            <img
-              src="https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?q=80&w=1400&auto=format&fit=crop"
-              alt="Rio Amazonico"
-              className="rounded-[2rem] shadow-2xl"
-            />
+           <img
+  src="/images/amazonia-rio.png"
+  alt="Rio Amazonico"
+  className="rounded-[2rem] shadow-2xl"
+/>
 
             {/* FLORESTA AMAZONICA */}
-            <img
-              src="https://images.unsplash.com/photo-1473773508845-188df298d2d1?q=80&w=900&auto=format&fit=crop"
-              alt="Floresta Amazonica"
-              className="absolute -bottom-10 -right-10 w-64 rounded-[1.5rem] border-4 border-white shadow-2xl hidden md:block"
-            />
+           <img
+  src="/images/indigena-amazonia.jpg"
+  alt="Comunidade indigena"
+  className="absolute -bottom-10 -right-10 w-64 rounded-[1.5rem] border-4 border-white shadow-2xl hidden md:block"
+/>
 
           </div>
 
