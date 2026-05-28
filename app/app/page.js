@@ -97,7 +97,7 @@ export default function Home() {
               </h2>
 
               <p className="text-xl md:text-2xl text-gray-100 leading-relaxed max-w-2xl mb-12">
-                O IBCL Amazonia atua na documentacao,
+                O IBCL Amazonia atua na documentação,
                 valorizacao e fortalecimento das linguas
                 indigenas e conhecimentos ancestrais
                 da floresta amazonica.
