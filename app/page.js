@@ -300,7 +300,128 @@ export default function Home() {
             Preservar linguas significa preservar biodiversidade,
             espiritualidade e memorias ancestrais da Amazonia.
           </p>
+{/* FUNDADORES */}
+<section
+  id="fundadores"
+  className="py-24 px-6 md:px-16 bg-[#0B2E26]"
+>
+  <div className="max-w-7xl mx-auto">
 
+    {/* TÍTULO */}
+    <div className="mb-16 text-center">
+      <p className="text-[#9ACD32] uppercase tracking-[0.2em] text-sm mb-4">
+        Fundadores
+      </p>
+
+      <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
+        Pessoas que constroem
+        <br />
+        pontes entre línguas,
+        territórios e futuro.
+      </h2>
+
+      <p className="text-gray-300 max-w-3xl mx-auto text-lg leading-relaxed">
+        O IBCL Amazônia reúne pesquisadores, educadores e agentes culturais
+        comprometidos com a preservação das línguas indígenas, fortalecimento
+        comunitário e produção de conhecimento colaborativo na Amazônia.
+      </p>
+    </div>
+
+    {/* CARDS */}
+    <div className="grid md:grid-cols-2 gap-10">
+
+      {/* FUNDADOR 1 */}
+      <div className="bg-white/5 border border-white/10 rounded-[2rem] overflow-hidden backdrop-blur-sm hover:border-[#9ACD32]/40 transition-all duration-300">
+
+        <img
+          src="/images/fundadora-1.jpg"
+          alt="Fundadora"
+          className="w-full h-[420px] object-cover"
+        />
+
+        <div className="p-8">
+
+          <h3 className="text-3xl font-bold text-white mb-2">
+            Nome da Fundadora
+          </h3>
+
+          <p className="text-[#9ACD32] mb-6 uppercase tracking-wider text-sm">
+            Linguista • Pesquisadora • Educadora
+          </p>
+
+          <p className="text-gray-300 leading-relaxed mb-6">
+            Pesquisadora com experiência em documentação de línguas indígenas,
+            formação de professores indígenas, cooperação internacional e
+            fortalecimento cultural na Amazônia. Atuou em projetos acadêmicos,
+            institucionais e comunitários relacionados à diversidade linguística
+            e patrimônio cultural.
+          </p>
+
+          <div className="flex flex-wrap gap-3">
+
+            <span className="px-4 py-2 rounded-full bg-[#163D33] text-[#9ACD32] text-sm">
+              Línguas Indígenas
+            </span>
+
+            <span className="px-4 py-2 rounded-full bg-[#163D33] text-[#9ACD32] text-sm">
+              Pesquisa
+            </span>
+
+            <span className="px-4 py-2 rounded-full bg-[#163D33] text-[#9ACD32] text-sm">
+              Amazônia
+            </span>
+
+          </div>
+        </div>
+      </div>
+
+      {/* FUNDADOR 2 */}
+      <div className="bg-white/5 border border-white/10 rounded-[2rem] overflow-hidden backdrop-blur-sm hover:border-[#9ACD32]/40 transition-all duration-300">
+
+        <img
+          src="/images/fundador-2.jpg"
+          alt="Fundador"
+          className="w-full h-[420px] object-cover"
+        />
+
+        <div className="p-8">
+
+          <h3 className="text-3xl font-bold text-white mb-2">
+            Nome do Fundador
+          </h3>
+
+          <p className="text-[#9ACD32] mb-6 uppercase tracking-wider text-sm">
+            Antropólogo • Pesquisador • Consultor
+          </p>
+
+          <p className="text-gray-300 leading-relaxed mb-6">
+            Atua no desenvolvimento de projetos sociais, culturais e científicos
+            voltados às comunidades amazônicas, com experiência em políticas
+            linguísticas, documentação audiovisual e fortalecimento de redes
+            colaborativas de pesquisa e valorização cultural.
+          </p>
+
+          <div className="flex flex-wrap gap-3">
+
+            <span className="px-4 py-2 rounded-full bg-[#163D33] text-[#9ACD32] text-sm">
+              Cultura
+            </span>
+
+            <span className="px-4 py-2 rounded-full bg-[#163D33] text-[#9ACD32] text-sm">
+              Território
+            </span>
+
+            <span className="px-4 py-2 rounded-full bg-[#163D33] text-[#9ACD32] text-sm">
+              Cooperação
+            </span>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
           <div className="flex justify-center flex-wrap gap-6">
 
             <button className="bg-emerald-700 hover:bg-emerald-600 transition px-8 py-5 rounded-2xl font-bold shadow-2xl">
