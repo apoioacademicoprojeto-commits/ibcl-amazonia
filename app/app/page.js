@@ -91,7 +91,7 @@ export default function Home() {
               </div>
 
               <h2 className="text-6xl md:text-8xl font-black leading-[0.95] mb-8">
-                Preservar linguas
+                Preservar línguas
                 <br />
                 e preservar futuros.
               </h2>
