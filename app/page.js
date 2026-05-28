@@ -9,21 +9,21 @@ export default function Home() {
         <div className="absolute inset-0">
 
           <img
-            src="https://images.unsplash.com/photo-1511497584788-876760111969?q=80&w=2200&auto=format&fit=crop"
+            src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2200&auto=format&fit=crop"
             alt="Amazonia"
             className="w-full h-full object-cover"
           />
 
-          {/* cinematic overlay */}
-          <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/55 to-black/20"></div>
+          {/* Overlay suave amazônico */}
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0b2418]/55 via-[#123524]/30 to-transparent"></div>
 
-          {/* green glow */}
-          <div className="absolute inset-0 bg-green-900/20"></div>
+          {/* Glow verde suave */}
+          <div className="absolute inset-0 bg-emerald-900/10"></div>
 
         </div>
 
         {/* NAVBAR */}
-        <header className="relative z-20 backdrop-blur-sm bg-black/20 border-b border-white/10">
+        <header className="relative z-20 backdrop-blur-md bg-white/5 border-b border-white/10">
 
           <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
 
@@ -34,43 +34,43 @@ export default function Home() {
                 IBCL
               </h1>
 
-              <p className="uppercase tracking-[0.45em] text-green-300 text-xs mt-1">
+              <p className="uppercase tracking-[0.45em] text-green-200 text-xs mt-1">
                 Amazonia
               </p>
 
             </div>
 
             {/* MENU */}
-            <nav className="hidden lg:flex items-center gap-10 uppercase text-sm tracking-wider">
+            <nav className="hidden lg:flex items-center gap-10 uppercase text-sm tracking-wider text-white/90">
 
-              <a href="#" className="hover:text-green-300 transition">
+              <a href="#" className="hover:text-green-200 transition">
                 Inicio
               </a>
 
-              <a href="#" className="hover:text-green-300 transition">
+              <a href="#" className="hover:text-green-200 transition">
                 Sobre
               </a>
 
-              <a href="#" className="hover:text-green-300 transition">
+              <a href="#" className="hover:text-green-200 transition">
                 Atuacao
               </a>
 
-              <a href="#" className="hover:text-green-300 transition">
+              <a href="#" className="hover:text-green-200 transition">
                 Linguas
               </a>
 
-              <a href="#" className="hover:text-green-300 transition">
+              <a href="#" className="hover:text-green-200 transition">
                 Pesquisa
               </a>
 
-              <a href="#" className="hover:text-green-300 transition">
+              <a href="#" className="hover:text-green-200 transition">
                 Contato
               </a>
 
             </nav>
 
             {/* BUTTON */}
-            <button className="bg-green-700 hover:bg-green-600 transition px-6 py-3 rounded-2xl font-semibold shadow-2xl">
+            <button className="bg-emerald-700/90 hover:bg-emerald-600 transition px-6 py-3 rounded-2xl font-semibold shadow-2xl">
               Apoie
             </button>
 
@@ -85,8 +85,8 @@ export default function Home() {
 
             <div className="max-w-3xl">
 
-              <div className="uppercase tracking-[0.4em] text-green-300 text-sm mb-7 font-semibold">
-                A lingua e territorio.
+              <div className="uppercase tracking-[0.4em] text-green-200 text-sm mb-7 font-semibold">
+                Amazonia • Linguas • Memoria Cultural
               </div>
 
               <h2 className="text-6xl md:text-8xl font-black leading-[0.95] mb-8">
@@ -95,20 +95,20 @@ export default function Home() {
                 e preservar futuros.
               </h2>
 
-              <p className="text-xl md:text-2xl text-gray-200 leading-relaxed max-w-2xl mb-12">
+              <p className="text-xl md:text-2xl text-gray-100 leading-relaxed max-w-2xl mb-12">
                 O IBCL Amazonia atua na documentacao,
-                promocao e valorizacao das linguas
-                indigenas e comunidades tradicionais
-                da Amazonia.
+                valorizacao e fortalecimento das linguas
+                indigenas e conhecimentos ancestrais
+                da floresta amazonica.
               </p>
 
               <div className="flex flex-wrap gap-5">
 
-                <button className="bg-green-700 hover:bg-green-600 transition px-8 py-5 rounded-2xl font-bold shadow-2xl">
+                <button className="bg-emerald-700 hover:bg-emerald-600 transition px-8 py-5 rounded-2xl font-bold shadow-2xl">
                   Conheca Nosso Trabalho
                 </button>
 
-                <button className="border border-white/40 hover:bg-white hover:text-black transition px-8 py-5 rounded-2xl backdrop-blur-sm">
+                <button className="border border-white/30 bg-white/10 hover:bg-white hover:text-black transition px-8 py-5 rounded-2xl backdrop-blur-md">
                   Apoie Esta Causa
                 </button>
 
@@ -126,9 +126,9 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
 
             {/* CARD */}
-            <div className="bg-black/35 backdrop-blur-md border border-green-700/40 rounded-[2rem] p-8 shadow-2xl hover:-translate-y-2 transition duration-300">
+            <div className="bg-[#163524]/45 backdrop-blur-xl border border-white/10 rounded-[2rem] p-8 shadow-2xl hover:-translate-y-2 transition duration-300">
 
-              <div className="w-16 h-16 rounded-full bg-green-900/60 flex items-center justify-center text-3xl mb-6">
+              <div className="w-16 h-16 rounded-full bg-emerald-900/50 flex items-center justify-center text-3xl mb-6">
                 📚
               </div>
 
@@ -136,16 +136,16 @@ export default function Home() {
                 Documentacao
               </h3>
 
-              <p className="text-gray-200 leading-relaxed">
-                Registro e preservacao de linguas ameaçadas.
+              <p className="text-gray-100 leading-relaxed">
+                Registro e preservacao de linguas ameacadas.
               </p>
 
             </div>
 
             {/* CARD */}
-            <div className="bg-black/35 backdrop-blur-md border border-green-700/40 rounded-[2rem] p-8 shadow-2xl hover:-translate-y-2 transition duration-300">
+            <div className="bg-[#163524]/45 backdrop-blur-xl border border-white/10 rounded-[2rem] p-8 shadow-2xl hover:-translate-y-2 transition duration-300">
 
-              <div className="w-16 h-16 rounded-full bg-green-900/60 flex items-center justify-center text-3xl mb-6">
+              <div className="w-16 h-16 rounded-full bg-emerald-900/50 flex items-center justify-center text-3xl mb-6">
                 👥
               </div>
 
@@ -153,16 +153,16 @@ export default function Home() {
                 Formacao
               </h3>
 
-              <p className="text-gray-200 leading-relaxed">
+              <p className="text-gray-100 leading-relaxed">
                 Capacitacao de pesquisadores e agentes comunitarios.
               </p>
 
             </div>
 
             {/* CARD */}
-            <div className="bg-black/35 backdrop-blur-md border border-green-700/40 rounded-[2rem] p-8 shadow-2xl hover:-translate-y-2 transition duration-300">
+            <div className="bg-[#163524]/45 backdrop-blur-xl border border-white/10 rounded-[2rem] p-8 shadow-2xl hover:-translate-y-2 transition duration-300">
 
-              <div className="w-16 h-16 rounded-full bg-green-900/60 flex items-center justify-center text-3xl mb-6">
+              <div className="w-16 h-16 rounded-full bg-emerald-900/50 flex items-center justify-center text-3xl mb-6">
                 🌎
               </div>
 
@@ -170,16 +170,16 @@ export default function Home() {
                 Pesquisa
               </h3>
 
-              <p className="text-gray-200 leading-relaxed">
-                Producao de conhecimento cientifico colaborativo.
+              <p className="text-gray-100 leading-relaxed">
+                Conhecimento cientifico colaborativo na Amazonia.
               </p>
 
             </div>
 
             {/* CARD */}
-            <div className="bg-black/35 backdrop-blur-md border border-green-700/40 rounded-[2rem] p-8 shadow-2xl hover:-translate-y-2 transition duration-300">
+            <div className="bg-[#163524]/45 backdrop-blur-xl border border-white/10 rounded-[2rem] p-8 shadow-2xl hover:-translate-y-2 transition duration-300">
 
-              <div className="w-16 h-16 rounded-full bg-green-900/60 flex items-center justify-center text-3xl mb-6">
+              <div className="w-16 h-16 rounded-full bg-emerald-900/50 flex items-center justify-center text-3xl mb-6">
                 🌿
               </div>
 
@@ -187,7 +187,7 @@ export default function Home() {
                 Valorizacao
               </h3>
 
-              <p className="text-gray-200 leading-relaxed">
+              <p className="text-gray-100 leading-relaxed">
                 Fortalecimento cultural e transmissao intergeracional.
               </p>
 
@@ -200,18 +200,18 @@ export default function Home() {
       </section>
 
       {/* SOBRE */}
-      <section className="py-32 text-gray-900">
+      <section className="py-32 text-gray-900 bg-[#f5f3ed]">
 
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
 
-          {/* TEXT */}
+          {/* TEXTO */}
           <div>
 
-            <div className="uppercase tracking-[0.4em] text-green-800 text-sm font-semibold mb-6">
+            <div className="uppercase tracking-[0.4em] text-emerald-800 text-sm font-semibold mb-6">
               Sobre o IBCL Amazonia
             </div>
 
-            <h2 className="text-5xl md:text-6xl font-black leading-tight mb-8">
+            <h2 className="text-5xl md:text-6xl font-black leading-tight mb-8 text-[#10281f]">
               Ciencia, territorio
               <br />
               e memoria cultural.
@@ -225,31 +225,30 @@ export default function Home() {
 
             <p className="text-lg text-gray-600 leading-relaxed mb-10">
               Desenvolvemos iniciativas de documentacao linguistica,
-              arquivos audiovisuais, tecnologias digitais e metodologias
-              interculturais voltadas a preservacao de patrimonios
-              culturais e conhecimentos ancestrais.
+              arquivos audiovisuais e tecnologias digitais voltadas
+              a preservacao dos patrimonios culturais amazonicos.
             </p>
 
-            <button className="bg-green-800 hover:bg-green-700 text-white px-8 py-4 rounded-2xl font-semibold transition">
+            <button className="bg-emerald-800 hover:bg-emerald-700 text-white px-8 py-4 rounded-2xl font-semibold transition">
               Conheca Nossa Historia
             </button>
 
           </div>
 
-          {/* IMAGES */}
+          {/* IMAGENS */}
           <div className="relative">
 
-            {/* Main Image */}
+            {/* MAIN IMAGE */}
             <img
               src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop"
               alt="Amazonia"
               className="rounded-[2rem] shadow-2xl"
             />
 
-            {/* Floating Image */}
+            {/* FLOAT IMAGE */}
             <img
               src="https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=700&auto=format&fit=crop"
-              alt="Indigena"
+              alt="Comunidade"
               className="absolute -bottom-10 -right-10 w-64 rounded-[1.5rem] border-4 border-white shadow-2xl hidden md:block"
             />
 
@@ -260,60 +259,72 @@ export default function Home() {
       </section>
 
       {/* IMPACT */}
-      <section className="px-6 pb-20">
+      <section className="px-6 pb-24 bg-[#f5f3ed]">
 
-        <div className="max-w-7xl mx-auto bg-[#10281f] rounded-[2.5rem] overflow-hidden relative">
+        <div className="max-w-7xl mx-auto rounded-[2.5rem] overflow-hidden relative">
 
-          <div className="absolute inset-0 opacity-20">
+          {/* BACKGROUND */}
+          <div className="absolute inset-0">
 
             <img
-              src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2000&auto=format&fit=crop"
-              alt="Floresta"
+              src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=2000&auto=format&fit=crop"
+              alt="Rio Amazonico"
               className="w-full h-full object-cover"
             />
 
+            <div className="absolute inset-0 bg-[#10281f]/70"></div>
+
           </div>
 
+          {/* CONTENT */}
           <div className="relative grid md:grid-cols-4 gap-10 px-10 py-16 text-center">
 
             <div>
-              <div className="text-5xl font-black text-green-300 mb-4">
+
+              <div className="text-5xl font-black text-green-200 mb-4">
                 40+
               </div>
 
-              <p className="text-gray-200">
+              <p className="text-gray-100">
                 Linguas em documentacao
               </p>
+
             </div>
 
             <div>
-              <div className="text-5xl font-black text-green-300 mb-4">
+
+              <div className="text-5xl font-black text-green-200 mb-4">
                 120+
               </div>
 
-              <p className="text-gray-200">
+              <p className="text-gray-100">
                 Comunidades parceiras
               </p>
+
             </div>
 
             <div>
-              <div className="text-5xl font-black text-green-300 mb-4">
+
+              <div className="text-5xl font-black text-green-200 mb-4">
                 250+
               </div>
 
-              <p className="text-gray-200">
+              <p className="text-gray-100">
                 Pesquisadores colaboradores
               </p>
+
             </div>
 
             <div>
-              <div className="text-5xl font-black text-green-300 mb-4">
+
+              <div className="text-5xl font-black text-green-200 mb-4">
                 15
               </div>
 
-              <p className="text-gray-200">
+              <p className="text-gray-100">
                 Anos de atuacao na Amazonia
               </p>
+
             </div>
 
           </div>
@@ -323,8 +334,9 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="relative py-28 text-white overflow-hidden">
+      <section className="relative py-28 overflow-hidden">
 
+        {/* BG */}
         <div className="absolute inset-0">
 
           <img
@@ -333,13 +345,14 @@ export default function Home() {
             className="w-full h-full object-cover"
           />
 
-          <div className="absolute inset-0 bg-black/70"></div>
+          <div className="absolute inset-0 bg-[#0b2418]/60"></div>
 
         </div>
 
-        <div className="relative max-w-5xl mx-auto px-6 text-center">
+        {/* CONTENT */}
+        <div className="relative max-w-5xl mx-auto px-6 text-center text-white">
 
-          <div className="uppercase tracking-[0.4em] text-green-300 text-sm mb-6 font-semibold">
+          <div className="uppercase tracking-[0.4em] text-green-200 text-sm mb-6 font-semibold">
             Apoie a preservacao cultural
           </div>
 
@@ -349,18 +362,18 @@ export default function Home() {
             mantem viva uma visao unica do mundo.
           </h2>
 
-          <p className="text-xl text-gray-200 leading-relaxed mb-12">
-            Preservar linguas indigenas significa preservar conhecimentos,
-            biodiversidade, espiritualidade e memorias ancestrais.
+          <p className="text-xl text-gray-100 leading-relaxed mb-12">
+            Preservar linguas significa preservar biodiversidade,
+            espiritualidade e memorias ancestrais da Amazonia.
           </p>
 
           <div className="flex justify-center flex-wrap gap-6">
 
-            <button className="bg-green-700 hover:bg-green-600 transition px-8 py-5 rounded-2xl font-bold shadow-2xl">
+            <button className="bg-emerald-700 hover:bg-emerald-600 transition px-8 py-5 rounded-2xl font-bold shadow-2xl">
               Fazer Doacao
             </button>
 
-            <button className="border border-white/40 hover:bg-white hover:text-black transition px-8 py-5 rounded-2xl">
+            <button className="border border-white/30 bg-white/10 hover:bg-white hover:text-black transition px-8 py-5 rounded-2xl backdrop-blur-md">
               Tornar-se Parceiro
             </button>
 
@@ -371,7 +384,7 @@ export default function Home() {
       </section>
 
       {/* FOOTER */}
-      <footer className="bg-black py-16 text-gray-400">
+      <footer className="bg-[#08150f] py-16 text-gray-400">
 
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10">
 
@@ -422,7 +435,7 @@ export default function Home() {
                 className="bg-white/10 border border-white/10 px-5 py-4 rounded-l-2xl w-full outline-none"
               />
 
-              <button className="bg-green-700 px-6 rounded-r-2xl">
+              <button className="bg-emerald-700 px-6 rounded-r-2xl">
                 →
               </button>
 
