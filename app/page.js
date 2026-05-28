@@ -10,7 +10,7 @@ export default function Home() {
 
           {/* AMAZONIA AEREA */}
           <img
-            src="https://images.unsplash.com/photo-1511497584788-876760111969?q=80&w=2200&auto=format&fit=crop"
+            src="/images/hero-amazonia.png"
             alt="Amazonia"
             className="w-full h-full object-cover"
           />
@@ -201,14 +201,14 @@ export default function Home() {
 
             {/* AMAZONIA RIO */}
             <img
-              src="https://images.unsplash.com/photo-1511497584788-876760111969?q=80&w=1400&auto=format&fit=crop"
+              src="/images/amazonia-rio.png"
               alt="Rio Amazonico"
               className="rounded-[2rem] shadow-2xl"
             />
 
             {/* FLORESTA AMAZONICA */}
             <img
-              src="https://images.unsplash.com/photo-1473773508845-188df298d2d1?q=80&w=900&auto=format&fit=crop"
+              src="/images/indigena-amazonia.jpg"
               alt="Floresta Amazonica"
               className="absolute -bottom-10 -right-10 w-64 rounded-[1.5rem] border-4 border-white shadow-2xl hidden md:block"
             />
