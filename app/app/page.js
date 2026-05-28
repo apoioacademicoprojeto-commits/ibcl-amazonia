@@ -1,260 +1,390 @@
-export default function IBCLWebsite() {
+export default function Home() {
   return (
-    <div className="min-h-screen bg-[#f7f6f2] text-gray-900 overflow-hidden">
-      <header className="relative bg-gradient-to-br from-[#0b3d2e] via-[#14532d] to-[#1f7a57] text-white">
-        <div className="absolute inset-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1511497584788-876760111969?q=80&w=1600&auto=format&fit=crop')] bg-cover bg-center"></div>
+    <main className="bg-[#f5f3ed] overflow-hidden text-white">
 
-        <div className="relative max-w-7xl mx-auto px-6 py-28 text-center">
-          <div className="inline-block px-4 py-2 rounded-full border border-white/30 backdrop-blur-sm bg-white/10 mb-8 text-sm tracking-wide uppercase">
-            Patrimônio Linguístico • Amazônia • Culturas Indígenas
-          </div>
+      {/* HERO */}
+      <section className="relative min-h-screen">
 
-          <h1 className="text-5xl md:text-7xl font-black leading-tight mb-8 max-w-5xl mx-auto">
-            Instituto Brasileiro de Conservação Linguística na Amazônia
-          </h1>
+        {/* BACKGROUND */}
+        <div className="absolute inset-0">
 
-          <p className="text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed text-green-50">
-            Preservando línguas ameaçadas, fortalecendo culturas indígenas e conectando
-            tecnologia, memória e diversidade linguística.
-          </p>
+          {/* AMAZONIA AEREA */}
+          <img
+  src="/images/hero-amazonia.jpg"
+  alt="Amazonia"
+  className="w-full h-full object-cover"
+/>
 
-          <div className="mt-12 flex justify-center gap-5 flex-wrap">
-            <button className="bg-white text-green-900 px-8 py-4 rounded-2xl shadow-2xl font-semibold hover:scale-105 transition duration-300">
-              Apoie Nossa Missão
+          {/* OVERLAY */}
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0b2418]/55 via-[#123524]/30 to-transparent"></div>
+
+          {/* GLOW */}
+          <div className="absolute inset-0 bg-emerald-900/10"></div>
+
+        </div>
+
+        {/* NAVBAR */}
+        <header className="relative z-20 bg-[#0b2418] border-b border-emerald-900/40 shadow-xl">
+
+          <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+
+            {/* LOGO */}
+            <div>
+
+              <h1 className="text-4xl font-black tracking-wide">
+                IBCL
+              </h1>
+
+              <p className="uppercase tracking-[0.45em] text-green-200 text-xs mt-1">
+                Amazonia
+              </p>
+
+            </div>
+
+            {/* MENU */}
+            <nav className="hidden lg:flex items-center gap-10 uppercase text-sm tracking-wider text-white/90">
+
+              <a href="#" className="hover:text-green-200 transition">
+                Inicio
+              </a>
+
+              <a href="#" className="hover:text-green-200 transition">
+                Sobre
+              </a>
+
+              <a href="#" className="hover:text-green-200 transition">
+                Atuacao
+              </a>
+
+              <a href="#" className="hover:text-green-200 transition">
+                Linguas
+              </a>
+
+              <a href="#" className="hover:text-green-200 transition">
+                Pesquisa
+              </a>
+
+              <a href="#" className="hover:text-green-200 transition">
+                Contato
+              </a>
+
+            </nav>
+
+            {/* BUTTON */}
+            <button className="bg-emerald-700 hover:bg-emerald-600 transition px-6 py-3 rounded-2xl font-semibold shadow-2xl">
+              Apoie
             </button>
 
-            <button className="border border-white/50 backdrop-blur-sm bg-white/10 px-8 py-4 rounded-2xl hover:bg-white hover:text-green-900 transition duration-300">
-              Conheça os Projetos
-            </button>
-          </div>
-        </div>
-      </header>
-
-      <section className="max-w-7xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-16 items-center">
-        <div>
-          <div className="text-green-800 font-semibold uppercase tracking-widest mb-4">
-            Nossa Missão
           </div>
 
-          <h2 className="text-5xl font-black mb-8 leading-tight">
-            Preservar vozes, histórias e saberes ancestrais.
-          </h2>
+        </header>
 
-          <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            O Instituto Brasileiro de Conservação Linguística na Amazônia atua na
-            documentação, preservação e revitalização de línguas indígenas e ameaçadas
-            de extinção em diferentes territórios do Brasil.
-          </p>
+        {/* HERO CONTENT */}
+        <div className="relative z-10 flex items-center min-h-[85vh]">
 
-          <p className="text-lg text-gray-700 leading-relaxed mb-10">
-            Trabalhamos em parceria com comunidades indígenas, pesquisadores,
-            educadores e instituições culturais para fortalecer a transmissão
-            linguística entre gerações por meio de tecnologias digitais,
-            arquivos audiovisuais e metodologias interculturais.
-          </p>
+          <div className="max-w-7xl mx-auto px-6 w-full">
 
-          <div className="grid grid-cols-2 gap-5">
-            <div className="bg-white p-6 rounded-3xl shadow-lg border border-gray-100">
-              <div className="text-4xl font-black text-green-800 mb-2">40+</div>
-              <p className="text-gray-600">Comunidades e iniciativas parceiras</p>
-            </div>
+            <div className="max-w-3xl">
 
-            <div className="bg-white p-6 rounded-3xl shadow-lg border border-gray-100">
-              <div className="text-4xl font-black text-green-800 mb-2">100%</div>
-              <p className="text-gray-600">Foco em preservação cultural colaborativa</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="relative">
-          <div className="absolute -top-8 -left-8 w-40 h-40 bg-green-200 rounded-full blur-3xl opacity-60"></div>
-
-          <div className="relative bg-white rounded-[2rem] shadow-2xl p-10 border border-gray-100">
-            <h3 className="text-3xl font-bold mb-8 text-green-900">
-              Áreas de Atuação
-            </h3>
-
-            <div className="space-y-5 text-lg text-gray-700">
-              <div className="flex items-start gap-4">
-                <span className="text-2xl">🌿</span>
-                <p>Documentação linguística e etnográfica</p>
+              <div className="uppercase tracking-[0.4em] text-green-200 text-sm mb-7 font-semibold">
+                Amazonia • Linguas • Memoria Cultural
               </div>
 
-              <div className="flex items-start gap-4">
-                <span className="text-2xl">📚</span>
-                <p>Revitalização de línguas indígenas</p>
-              </div>
+              <h2 className="text-6xl md:text-8xl font-black leading-[0.95] mb-8">
+                Preservar linguas
+                <br />
+                e preservar futuros.
+              </h2>
 
-              <div className="flex items-start gap-4">
-                <span className="text-2xl">🎙️</span>
-                <p>Arquivos audiovisuais comunitários</p>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <span className="text-2xl">🧑🏽‍🏫</span>
-                <p>Formação de professores indígenas</p>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <span className="text-2xl">💻</span>
-                <p>Tecnologias digitais e inteligência artificial</p>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <span className="text-2xl">🤝</span>
-                <p>Pesquisa colaborativa e intercultural</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-white py-24 px-6">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <div className="text-green-800 uppercase tracking-widest font-semibold mb-4">
-              Projetos em Destaque
-            </div>
-
-            <h2 className="text-5xl font-black mb-6">
-              Iniciativas para fortalecimento cultural
-            </h2>
-
-            <p className="max-w-3xl mx-auto text-lg text-gray-600 leading-relaxed">
-              Projetos voltados à preservação de memórias, documentação linguística,
-              formação comunitária e desenvolvimento de tecnologias culturais.
-            </p>
-          </div>
-
-          <div className="grid lg:grid-cols-3 gap-8">
-            <div className="group bg-gradient-to-b from-white to-green-50 rounded-[2rem] p-10 shadow-lg hover:shadow-2xl transition duration-300 border border-green-100">
-              <div className="text-5xl mb-6">🎧</div>
-
-              <h3 className="text-2xl font-bold mb-5 text-green-950">
-                Arquivo de Vozes Amazônicas
-              </h3>
-
-              <p className="text-gray-700 leading-relaxed">
-                Criação de um acervo digital com narrativas orais, cantos,
-                gravações e materiais culturais de línguas indígenas ameaçadas.
+              <p className="text-xl md:text-2xl text-gray-100 leading-relaxed max-w-2xl mb-12">
+                O IBCL Amazonia atua na documentacao,
+                valorizacao e fortalecimento das linguas
+                indigenas e conhecimentos ancestrais
+                da floresta amazonica.
               </p>
-            </div>
 
-            <div className="group bg-gradient-to-b from-white to-green-50 rounded-[2rem] p-10 shadow-lg hover:shadow-2xl transition duration-300 border border-green-100">
-              <div className="text-5xl mb-6">🏕️</div>
+              <div className="flex flex-wrap gap-5">
 
-              <h3 className="text-2xl font-bold mb-5 text-green-950">
-                Escolas de Imersão Linguística
-              </h3>
+                <button className="bg-emerald-700 hover:bg-emerald-600 transition px-8 py-5 rounded-2xl font-bold shadow-2xl">
+                  Conheca Nosso Trabalho
+                </button>
 
-              <p className="text-gray-700 leading-relaxed">
-                Desenvolvimento de metodologias comunitárias para fortalecer
-                a transmissão de línguas entre crianças, jovens e anciãos.
-              </p>
-            </div>
+                <button className="border border-white/30 bg-white/10 hover:bg-white hover:text-black transition px-8 py-5 rounded-2xl backdrop-blur-md">
+                  Apoie Esta Causa
+                </button>
 
-            <div className="group bg-gradient-to-b from-white to-green-50 rounded-[2rem] p-10 shadow-lg hover:shadow-2xl transition duration-300 border border-green-100">
-              <div className="text-5xl mb-6">🛰️</div>
-
-              <h3 className="text-2xl font-bold mb-5 text-green-950">
-                Tecnologia e Patrimônio Cultural
-              </h3>
-
-              <p className="text-gray-700 leading-relaxed">
-                Plataformas digitais, aplicativos e inteligência artificial
-                para documentação e revitalização linguística.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="relative py-28 px-6 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0b3d2e] to-[#14532d]"></div>
-
-        <div className="absolute inset-0 opacity-10 bg-[url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop')] bg-cover bg-center"></div>
-
-        <div className="relative max-w-5xl mx-auto text-center text-white">
-          <h2 className="text-5xl font-black mb-10 leading-tight">
-            Cada língua preservada mantém viva uma visão única do mundo.
-          </h2>
-
-          <p className="text-xl leading-relaxed text-green-50">
-            Línguas indígenas carregam conhecimentos sobre biodiversidade,
-            espiritualidade, território, memória e formas ancestrais de existir.
-            Preservar uma língua é preservar também uma forma de compreender a humanidade.
-          </p>
-        </div>
-      </section>
-
-      <section className="bg-[#f0ede6] py-24 px-6">
-        <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
-          <div>
-            <div className="uppercase tracking-widest text-green-800 font-semibold mb-4">
-              Apoie a preservação cultural
-            </div>
-
-            <h2 className="text-5xl font-black mb-8 leading-tight">
-              Junte-se à nossa missão.
-            </h2>
-
-            <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              Contribua para iniciativas de fortalecimento linguístico,
-              documentação audiovisual e desenvolvimento de tecnologias voltadas
-              à preservação cultural na Amazônia.
-            </p>
-
-            <div className="flex gap-5 flex-wrap">
-              <button className="bg-green-900 text-white px-8 py-4 rounded-2xl shadow-xl hover:scale-105 transition duration-300">
-                Fazer Doação
-              </button>
-
-              <button className="border border-green-900 text-green-900 px-8 py-4 rounded-2xl hover:bg-green-900 hover:text-white transition duration-300">
-                Tornar-se Parceiro
-              </button>
-            </div>
-          </div>
-
-          <div className="bg-white rounded-[2rem] p-10 shadow-2xl border border-gray-100">
-            <div className="space-y-8">
-              <div>
-                <h3 className="text-2xl font-bold text-green-900 mb-3">Contato</h3>
-                <p className="text-gray-700">contato@ibclamazonia.org</p>
               </div>
 
-              <div>
-                <h3 className="text-2xl font-bold text-green-900 mb-3">Localização</h3>
-                <p className="text-gray-700">Brasília – DF, Brasil</p>
-              </div>
+            </div>
 
-              <div>
-                <h3 className="text-2xl font-bold text-green-900 mb-3">Parcerias</h3>
-                <p className="text-gray-700">
-                  Comunidades indígenas, universidades, pesquisadores e organizações culturais.
+          </div>
+
+        </div>
+
+        {/* FEATURE CARDS */}
+        <div className="relative z-20 max-w-7xl mx-auto px-6 pb-16">
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+            {[
+              ["📚", "Documentacao", "Registro e preservacao de linguas ameacadas."],
+              ["👥", "Formacao", "Capacitacao de pesquisadores e agentes comunitarios."],
+              ["🌎", "Pesquisa", "Conhecimento cientifico colaborativo na Amazonia."],
+              ["🌿", "Valorizacao", "Fortalecimento cultural e transmissao intergeracional."]
+            ].map((item, index) => (
+
+              <div
+                key={index}
+                className="bg-[#163524]/45 backdrop-blur-xl border border-white/10 rounded-[2rem] p-8 shadow-2xl hover:-translate-y-2 transition duration-300"
+              >
+
+                <div className="w-16 h-16 rounded-full bg-emerald-900/50 flex items-center justify-center text-3xl mb-6">
+                  {item[0]}
+                </div>
+
+                <h3 className="text-2xl font-bold mb-4">
+                  {item[1]}
+                </h3>
+
+                <p className="text-gray-100 leading-relaxed">
+                  {item[2]}
                 </p>
+
               </div>
-            </div>
+
+            ))}
+
           </div>
+
         </div>
+
       </section>
 
-      <footer className="bg-black text-gray-400 py-12 px-6 border-t border-white/10">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-8 items-center">
+      {/* SOBRE */}
+      <section className="py-32 text-gray-900 bg-[#f5f3ed]">
+
+        <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
+
+          {/* TEXTO */}
           <div>
-            <h3 className="text-white text-2xl font-bold mb-2">
-              IBCL Amazônia
+
+            <div className="uppercase tracking-[0.4em] text-emerald-800 text-sm font-semibold mb-6">
+              Sobre o IBCL Amazonia
+            </div>
+
+            <h2 className="text-5xl md:text-6xl font-black leading-tight mb-8 text-[#10281f]">
+              Ciencia, territorio
+              <br />
+              e memoria cultural.
+            </h2>
+
+            <p className="text-xl text-gray-700 leading-relaxed mb-8">
+              Trabalhamos em parceria com comunidades indigenas,
+              pesquisadores e instituicoes culturais para fortalecer
+              a transmissao linguistica entre geracoes.
+            </p>
+
+            <p className="text-lg text-gray-600 leading-relaxed mb-10">
+              Desenvolvemos iniciativas de documentacao linguistica,
+              arquivos audiovisuais e tecnologias digitais voltadas
+              a preservacao dos patrimonios culturais amazonicos.
+            </p>
+
+            <button className="bg-emerald-800 hover:bg-emerald-700 text-white px-8 py-4 rounded-2xl font-semibold transition">
+              Conheca Nossa Historia
+            </button>
+
+          </div>
+
+          {/* IMAGENS */}
+          <div className="relative">
+
+            {/* AMAZONIA RIO */}
+            <img
+              src="https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?q=80&w=1400&auto=format&fit=crop"
+              alt="Rio Amazonico"
+              className="rounded-[2rem] shadow-2xl"
+            />
+
+            {/* FLORESTA AMAZONICA */}
+            <img
+              src="https://images.unsplash.com/photo-1473773508845-188df298d2d1?q=80&w=900&auto=format&fit=crop"
+              alt="Floresta Amazonica"
+              className="absolute -bottom-10 -right-10 w-64 rounded-[1.5rem] border-4 border-white shadow-2xl hidden md:block"
+            />
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* IMPACT */}
+      <section className="px-6 pb-24 bg-[#f5f3ed]">
+
+        <div className="max-w-7xl mx-auto rounded-[2.5rem] overflow-hidden relative">
+
+          {/* BG */}
+          <div className="absolute inset-0">
+
+            <img
+              src="https://images.unsplash.com/photo-1465379944081-7f47de8d74ac?q=80&w=2000&auto=format&fit=crop"
+              alt="Amazonia"
+              className="w-full h-full object-cover"
+            />
+
+            <div className="absolute inset-0 bg-[#10281f]/70"></div>
+
+          </div>
+
+          {/* CONTENT */}
+          <div className="relative grid md:grid-cols-4 gap-10 px-10 py-16 text-center">
+
+            {[
+              ["40+", "Linguas em documentacao"],
+              ["120+", "Comunidades parceiras"],
+              ["250+", "Pesquisadores colaboradores"],
+              ["15", "Anos de atuacao na Amazonia"]
+            ].map((item, index) => (
+
+              <div key={index}>
+
+                <div className="text-5xl font-black text-green-200 mb-4">
+                  {item[0]}
+                </div>
+
+                <p className="text-gray-100">
+                  {item[1]}
+                </p>
+
+              </div>
+
+            ))}
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* CTA */}
+      <section className="relative py-28 overflow-hidden">
+
+        {/* BG */}
+        <div className="absolute inset-0">
+
+          <img
+            src="https://images.unsplash.com/photo-1511497584788-876760111969?q=80&w=2200&auto=format&fit=crop"
+            alt="Amazonia"
+            className="w-full h-full object-cover"
+          />
+
+          <div className="absolute inset-0 bg-[#0b2418]/60"></div>
+
+        </div>
+
+        {/* CONTENT */}
+        <div className="relative max-w-5xl mx-auto px-6 text-center text-white">
+
+          <div className="uppercase tracking-[0.4em] text-green-200 text-sm mb-6 font-semibold">
+            Apoie a preservacao cultural
+          </div>
+
+          <h2 className="text-5xl md:text-6xl font-black leading-tight mb-10">
+            Cada lingua preservada
+            <br />
+            mantem viva uma visao unica do mundo.
+          </h2>
+
+          <p className="text-xl text-gray-100 leading-relaxed mb-12">
+            Preservar linguas significa preservar biodiversidade,
+            espiritualidade e memorias ancestrais da Amazonia.
+          </p>
+
+          <div className="flex justify-center flex-wrap gap-6">
+
+            <button className="bg-emerald-700 hover:bg-emerald-600 transition px-8 py-5 rounded-2xl font-bold shadow-2xl">
+              Fazer Doacao
+            </button>
+
+            <button className="border border-white/30 bg-white/10 hover:bg-white hover:text-black transition px-8 py-5 rounded-2xl backdrop-blur-md">
+              Tornar-se Parceiro
+            </button>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* FOOTER */}
+      <footer className="bg-[#0b2418] py-16 text-gray-300 border-t border-emerald-900/40">
+
+        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10">
+
+          <div>
+
+            <h3 className="text-white text-4xl font-black mb-4">
+              IBCL
             </h3>
 
-            <p>
-              Instituto Brasileiro de Conservação Linguística na Amazônia.
+            <p className="text-green-300 uppercase tracking-[0.35em] text-sm mb-6">
+              Amazonia
             </p>
+
+            <p className="leading-relaxed">
+              Instituto Brasileiro de Conservacao Linguistica na Amazonia.
+            </p>
+
           </div>
 
-          <div className="text-sm text-gray-500 text-center md:text-right">
-            © 2026 IBCL Amazônia • Preservando línguas e memórias culturais.
+          <div>
+
+            <h4 className="text-white font-bold mb-5">
+              Navegacao
+            </h4>
+
+            <div className="space-y-3">
+
+              <p>Inicio</p>
+              <p>Sobre</p>
+              <p>Pesquisa</p>
+              <p>Projetos</p>
+
+            </div>
+
           </div>
+
+          <div>
+
+            <h4 className="text-white font-bold mb-5">
+              Newsletter
+            </h4>
+
+            <div className="flex">
+
+              <input
+                type="email"
+                placeholder="Seu email"
+                className="bg-white/10 border border-white/10 px-5 py-4 rounded-l-2xl w-full outline-none"
+              />
+
+              <button className="bg-emerald-700 px-6 rounded-r-2xl">
+                →
+              </button>
+
+            </div>
+
+          </div>
+
         </div>
+
+        <div className="max-w-7xl mx-auto px-6 mt-12 pt-8 border-t border-white/10 text-sm text-gray-400">
+          © 2026 IBCL Amazonia. Todos os direitos reservados.
+        </div>
+
       </footer>
-    </div>
+
+    </main>
   )
 }
