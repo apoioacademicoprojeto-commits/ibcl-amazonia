@@ -129,11 +129,27 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
 
             {[
-              ["📚", "Documentacao", "Registro e preservacao de linguas ameacadas."],
-              ["👥", "Formacao", "Capacitacao de pesquisadores e agentes comunitarios."],
-              ["🌎", "Pesquisa", "Conhecimento cientifico colaborativo na Amazonia."],
-              ["🌿", "Valorizacao", "Fortalecimento cultural e transmissao intergeracional."]
-            ].map((item, index) => (
+  {
+    icon: <BookOpen size={40} strokeWidth={1.5} />,
+    title: "Documentacao",
+    text: "Registro e preservacao de linguas ameacadas."
+  },
+  {
+    icon: <Users size={40} strokeWidth={1.5} />,
+    title: "Formacao",
+    text: "Capacitacao de pesquisadores e agentes comunitarios."
+  },
+  {
+    icon: <Globe size={40} strokeWidth={1.5} />,
+    title: "Pesquisa",
+    text: "Conhecimento cientifico colaborativo na Amazonia."
+  },
+  {
+    icon: <Leaf size={40} strokeWidth={1.5} />,
+    title: "Valorizacao",
+    text: "Fortalecimento cultural e transmissao intergeracional."
+  }
+].map((item, index) => (
 
               <div
                 key={index}
