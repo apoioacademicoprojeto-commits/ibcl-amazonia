@@ -190,7 +190,7 @@ export default function Home() {
       </section>
 
       {/* IMPACT */}
-      <section className="px-6 pb-32 bg-[#f5f3ed]">
+      <section className="px-6 pt-32 pb-24 bg-[#f5f3ed]">
 
         <div className="max-w-7xl mx-auto rounded-[2.5rem] overflow-hidden relative">
 
