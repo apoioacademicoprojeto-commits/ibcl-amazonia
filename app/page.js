@@ -82,7 +82,7 @@ export default function Home() {
               <h2 className="text-6xl md:text-8xl font-black leading-[0.95] mb-8">
                 Preservar línguas
                 <br />
-                e fortalecer culturas.
+                e fortalecer culturas
               </h2>
 
               <p className="text-xl md:text-2xl text-gray-100 leading-relaxed max-w-2xl mb-12">
@@ -203,7 +203,7 @@ export default function Home() {
             <h2 className="text-5xl md:text-6xl font-black leading-tight mb-8 text-[#10281f]">
               Ciência, território
               <br />
-              e memória cultural.
+              e memória cultural
             </h2>
 
             <p className="text-xl text-gray-700 leading-relaxed mb-8">
@@ -317,12 +317,12 @@ export default function Home() {
           <h2 className="text-5xl md:text-6xl font-black leading-tight mb-10">
             Cada língua preservada
             <br />
-            mantém vivas formas únicas de ver o mundo. 
+            mantém vivas formas únicas de ver o mundo
           </h2>
 
           <p className="text-2xl text-gray-100 leading-relaxed mb-12">
             Preservar línguas significa preservar conhecimentos, biodiversidade,
-            espiritualidade e memórias ancestrais da Amazônia.
+            espiritualidade e memórias ancestrais da Amazônia
           </p>
 
           {/* FUNDADORES */}
@@ -338,7 +338,7 @@ export default function Home() {
 
                 <h2 className="text-3xl md:text-5xl font-light text-white leading-tight max-w-4xl mb-6">
   Pessoas que constroem pontes entre línguas,
-  territórios e futuro.
+  territórios e futuro
 </h2>
 
                 <p className="text-gray-300 max-w-3xl mx-auto text-lg leading-relaxed">
@@ -370,7 +370,12 @@ export default function Home() {
                   </p>
 
                   <p className="text-gray-300 leading-relaxed mb-8 max-w-xl mx-auto">
-                    Pesquisadora com experiência em documentação de línguas indígenas.
+                    Pesquisadora com experiência em documentação de línguas indígenas,
+      formação de professores indígenas, cooperação internacional e
+      fortalecimento cultural na Amazônia. Atuou em projetos acadêmicos,
+      institucionais e comunitários relacionados à diversidade linguística
+      e patrimônio cultural.
+
                   </p>
 
                 </div>
@@ -395,7 +400,11 @@ export default function Home() {
                   </p>
 
                   <p className="text-gray-300 leading-relaxed mb-8 max-w-xl mx-auto">
-                    Atua no desenvolvimento de projetos culturais na Amazônia.
+                    Atua no desenvolvimento de projetos sociais, culturais e científicos
+      voltados às comunidades amazônicas, com experiência em políticas
+      linguísticas, documentação audiovisual e fortalecimento de redes
+      colaborativas de pesquisa e valorização cultural.
+
                   </p>
 
                 </div>
