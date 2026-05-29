@@ -1,3 +1,5 @@
+import { BookOpen, Users, Globe, Leaf } from "lucide-react";
+
 export default function Home() {
   return (
     <main className="bg-[#f5f3ed] overflow-hidden text-white">
