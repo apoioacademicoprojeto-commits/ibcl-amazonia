@@ -188,6 +188,64 @@ export default function Home() {
 
 </div>
       </section>
+      {/* SOBRE */}
+      <section className="py-32 text-gray-900 bg-[#f5f3ed]">
+
+        <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
+
+          {/* TEXTO */}
+          <div>
+
+            <div className="uppercase tracking-[0.4em] text-emerald-800 text-sm font-semibold mb-6">
+              Sobre o IBCL Amazônia
+            </div>
+
+            <h2 className="text-5xl md:text-6xl font-black leading-tight mb-8 text-[#10281f]">
+              Ciência, território
+              <br />
+              e memória cultural.
+            </h2>
+
+            <p className="text-xl text-gray-700 leading-relaxed mb-8">
+              Trabalhamos em parceria com comunidades indígenas,
+              pesquisadores e instituições culturais para fortalecer
+              a transmissão linguística entre gerações.
+            </p>
+
+            <p className="text-lg text-gray-600 leading-relaxed mb-10">
+              Desenvolvemos iniciativas de documentação linguística,
+              arquivos audiovisuais e tecnologias digitais voltadas
+              a preservação dos patrimônios culturais amazônicos.
+            </p>
+
+            <button className="bg-emerald-800 hover:bg-emerald-700 text-white px-8 py-4 rounded-2xl font-semibold transition">
+              Conheça Nossa História
+            </button>
+
+          </div>
+
+          {/* IMAGENS */}
+          <div className="relative">
+
+            {/* AMAZONIA RIO */}
+            <img
+              src="/images/amazonia-rio.png"
+              alt="Rio Amazonico"
+              className="rounded-[2rem] shadow-2xl"
+            />
+
+            {/* FLORESTA AMAZONICA */}
+            <img
+              src="/images/indigena-amazonia.jpg"
+              alt="Floresta Amazonica"
+              className="absolute -bottom-10 -right-10 w-64 rounded-[1.5rem] border-4 border-white shadow-2xl hidden md:block"
+            />
+
+          </div>
+
+        </div>
+
+      </section>
 
       {/* IMPACT */}
       <section className="px-6 pt-32 pb-24 bg-[#f5f3ed]">
