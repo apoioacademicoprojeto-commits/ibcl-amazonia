@@ -375,7 +375,7 @@ export default function Home() {
       <div className="bg-white/5 border border-white/10 rounded-[2rem] overflow-hidden backdrop-blur-sm hover:border-[#9ACD32]/40 transition-all duration-300">
 
         <img
-          src="/images/fundadora-1.jpg"
+          src="/images/leticiafundadora-1.jpg"
           alt="Fundadora"
           className="w-full h-[420px] object-cover"
         />
