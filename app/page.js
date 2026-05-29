@@ -336,12 +336,10 @@ export default function Home() {
                   Fundadores
                 </p>
 
-                <h2 className="text-3xl md:text-6xl font-bold text-white mb-6">
-                  Pessoas que constroem
-                  <br />
-                  pontes entre línguas,
-                  territórios e futuro.
-                </h2>
+                <h2 className="text-3xl md:text-5xl font-light text-white leading-tight max-w-4xl mb-6">
+  Pessoas que constroem pontes entre línguas,
+  territórios e futuro.
+</h2>
 
                 <p className="text-gray-300 max-w-3xl mx-auto text-lg leading-relaxed">
                   O IBCL Amazônia reúne pesquisadores, educadores e agentes culturais
