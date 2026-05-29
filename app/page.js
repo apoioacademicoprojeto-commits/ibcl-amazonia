@@ -115,7 +115,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
 
-            {[
+          {[
   {
     icon: (
       <svg width="40" height="40" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
@@ -163,9 +163,26 @@ export default function Home() {
   }
 ].map((item, index) => (
 
-          </div>
+  <div
+    key={index}
+    className="bg-[#163524]/45 backdrop-blur-xl border border-white/10 rounded-[2rem] p-8 shadow-2xl hover:-translate-y-2 transition duration-300"
+  >
 
-        </div>
+    <div className="w-20 h-20 rounded-full border border-white/30 bg-white/5 backdrop-blur-md flex items-center justify-center text-white mb-6">
+      {item.icon}
+    </div>
+
+    <h3 className="text-2xl font-bold mb-4 text-white">
+      {item.title}
+    </h3>
+
+    <p className="text-gray-100 leading-relaxed">
+      {item.text}
+    </p>
+
+  </div>
+
+))}
 
       </section>
 
