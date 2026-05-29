@@ -462,7 +462,6 @@ export default function Home() {
 
 </div>
 
-    </div>
   </div>
 </section>
           <div className="flex justify-center flex-wrap gap-6">
