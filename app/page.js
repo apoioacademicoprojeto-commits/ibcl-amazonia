@@ -228,7 +228,7 @@ export default function Home() {
           <div className="absolute inset-0">
 
             <img
-              src="https://images.unsplash.com/photo-1465379944081-7f47de8d74ac?q=80&w=2000&auto=format&fit=crop"
+              src="pexels-ivo-brasil-335441-17502449.jpg"
               alt="Amazonia"
               className="w-full h-full object-cover"
             />
@@ -274,7 +274,7 @@ export default function Home() {
         <div className="absolute inset-0">
 
           <img
-            src="https://images.unsplash.com/photo-1511497584788-876760111969?q=80&w=2200&auto=format&fit=crop"
+            src="Manaus AM pexels-jeangc-28587130.jpg"
             alt="Amazonia"
             className="w-full h-full object-cover"
           />
