@@ -378,7 +378,7 @@ export default function Home() {
       <img
         src="/images/leticiafundadora-1.jpg"
         alt="Fundadora"
-        className="w-36 h-36 rounded-full object-cover border-4 border-[#9ACD32]/30 shadow-2xl"
+        className="w-44 h-44 rounded-full object-cover border-4 border-[#9ACD32]/30 shadow-2xl"
       />
     </div>
 
@@ -423,7 +423,7 @@ export default function Home() {
       <img
         src="/images/fundador-2.jpg"
         alt="Fundador"
-        className="w-36 h-36 rounded-full object-cover border-4 border-[#9ACD32]/30 shadow-2xl"
+        className="w-44 h-44 rounded-full object-cover border-4 border-[#9ACD32]/30 shadow-2xl"
       />
     </div>
 
