@@ -126,24 +126,49 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
 
-            {[
+           {[
   {
-    icon: <BookOpen size={40} strokeWidth={1.5} />,
+    icon: (
+      <svg width="40" height="40" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+        <path d="M6.5 2H20v15H6.5A2.5 2.5 0 0 0 4 19.5V4.5A2.5 2.5 0 0 1 6.5 2z" />
+      </svg>
+    ),
     title: "Documentacao",
     text: "Registro e preservacao de linguas ameacadas."
   },
+
   {
-    icon: <Users size={40} strokeWidth={1.5} />,
+    icon: (
+      <svg width="40" height="40" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+        <circle cx="9" cy="7" r="4" />
+        <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+      </svg>
+    ),
     title: "Formacao",
     text: "Capacitacao de pesquisadores e agentes comunitarios."
   },
+
   {
-    icon: <Globe size={40} strokeWidth={1.5} />,
+    icon: (
+      <svg width="40" height="40" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10" />
+        <line x1="2" y1="12" x2="22" y2="12" />
+        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+      </svg>
+    ),
     title: "Pesquisa",
     text: "Conhecimento cientifico colaborativo na Amazonia."
   },
+
   {
-    icon: <Leaf size={40} strokeWidth={1.5} />,
+    icon: (
+      <svg width="40" height="40" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+        <path d="M11 20A7 7 0 0 1 4 13C4 7 12 3 12 3s8 4 8 10a7 7 0 0 1-7 7h-2z" />
+      </svg>
+    ),
     title: "Valorizacao",
     text: "Fortalecimento cultural e transmissao intergeracional."
   }
