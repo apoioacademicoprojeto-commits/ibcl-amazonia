@@ -317,11 +317,11 @@ export default function Home() {
           <h2 className="text-5xl md:text-6xl font-black leading-tight mb-10">
             Cada língua preservada
             <br />
-            mantém viva uma visão única do mundo.
+            mantém vivas formas únicas de ver o mundo. 
           </h2>
 
-          <p className="text-xl text-gray-100 leading-relaxed mb-12">
-            Preservar línguas significa preservar biodiversidade,
+          <p className="text-2xl text-gray-100 leading-relaxed mb-12">
+            Preservar línguas significa preservar conhecimentos, biodiversidade,
             espiritualidade e memórias ancestrais da Amazônia.
           </p>
 
