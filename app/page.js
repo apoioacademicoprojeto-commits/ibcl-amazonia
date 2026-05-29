@@ -152,25 +152,25 @@ export default function Home() {
 ].map((item, index) => (
 
               <div
-                key={index}
-                className="bg-[#163524]/45 backdrop-blur-xl border border-white/10 rounded-[2rem] p-8 shadow-2xl hover:-translate-y-2 transition duration-300"
-              >
+  key={index}
+  className="bg-[#163524]/45 backdrop-blur-xl border border-white/10 rounded-[2rem] p-8 shadow-2xl hover:-translate-y-2 transition duration-300"
+>
 
-                <div className="w-16 h-16 rounded-full bg-emerald-900/50 flex items-center justify-center text-3xl mb-6">
-                  {item[0]}
-                </div>
+  <div className="w-20 h-20 rounded-full border border-white/30 bg-white/5 backdrop-blur-md flex items-center justify-center text-white mb-6 transition-all duration-500 hover:scale-110 hover:bg-white/10">
+    {item.icon}
+  </div>
 
-                <h3 className="text-2xl font-bold mb-4">
-                  {item[1]}
-                </h3>
+  <h3 className="text-2xl font-bold mb-4 text-white">
+    {item.title}
+  </h3>
 
-                <p className="text-gray-100 leading-relaxed">
-                  {item[2]}
-                </p>
+  <p className="text-gray-100 leading-relaxed">
+    {item.text}
+  </p>
 
-              </div>
+</div>
 
-            ))}
+))}
 
           </div>
 
