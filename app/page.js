@@ -116,44 +116,52 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
 
             {[
-              {
-                title: "Documentação",
-                text: "Registro e preservação de línguas ameaçadas."
-              },
-              {
-                title: "Formação",
-                text: "Capacitação de pesquisadores e agentes comunitários."
-              },
-              {
-                title: "Pesquisa",
-                text: "Conhecimento científico colaborativo na Amazônia."
-              },
-              {
-                title: "Valorização",
-                text: "Fortalecimento cultural e transmissão intergeracional."
-              }
-            ].map((item, index) => (
+  {
+    icon: (
+      <svg width="40" height="40" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+        <path d="M6.5 2H20v15H6.5A2.5 2.5 0 0 0 4 19.5V4.5A2.5 2.5 0 0 1 6.5 2z" />
+      </svg>
+    ),
+    title: "Documentação",
+    text: "Registro e preservação de línguas ameaçadas."
+  },
 
-              <div
-                key={index}
-                className="bg-[#163524]/45 backdrop-blur-xl border border-white/10 rounded-[2rem] p-8 shadow-2xl hover:-translate-y-2 transition duration-300"
-              >
+  {
+    icon: (
+      <svg width="40" height="40" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+        <circle cx="9" cy="7" r="4" />
+        <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+      </svg>
+    ),
+    title: "Formação",
+    text: "Capacitação de pesquisadores e agentes comunitários."
+  },
 
-                <div className="w-20 h-20 rounded-full border border-white/30 bg-white/5 backdrop-blur-md flex items-center justify-center text-white mb-6 transition-all duration-500 hover:scale-110 hover:bg-white/10">
-                  {item.icon}
-                </div>
+  {
+    icon: (
+      <svg width="40" height="40" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10" />
+        <line x1="2" y1="12" x2="22" y2="12" />
+        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+      </svg>
+    ),
+    title: "Pesquisa",
+    text: "Conhecimento científico colaborativo na Amazônia."
+  },
 
-                <h3 className="text-2xl font-bold mb-4 text-white">
-                  {item.title}
-                </h3>
-
-                <p className="text-gray-100 leading-relaxed">
-                  {item.text}
-                </p>
-
-              </div>
-
-            ))}
+  {
+    icon: (
+      <svg width="40" height="40" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+        <path d="M11 20A7 7 0 0 1 4 13C4 7 12 3 12 3s8 4 8 10a7 7 0 0 1-7 7h-2z" />
+      </svg>
+    ),
+    title: "Valorização",
+    text: "Fortalecimento cultural e transmissão intergeracional."
+  }
+].map((item, index) => (
 
           </div>
 
