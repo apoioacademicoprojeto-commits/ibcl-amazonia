@@ -368,97 +368,99 @@ export default function Home() {
       </p>
     </div>
 
-    {/* CARDS */}
-    <div className="grid md:grid-cols-2 gap-10">
+ {/* CARDS */}
+<div className="grid md:grid-cols-2 gap-10">
 
-      {/* FUNDADOR 1 */}
-      <div className="bg-white/5 border border-white/10 rounded-[2rem] overflow-hidden backdrop-blur-sm hover:border-[#9ACD32]/40 transition-all duration-300">
+  {/* FUNDADORA */}
+  <div className="bg-white/5 border border-white/10 rounded-[2rem] backdrop-blur-sm hover:border-[#9ACD32]/40 transition-all duration-300 p-8 text-center">
 
-        <img
-          src="/images/leticiafundadora-1.jpg"
-          alt="Fundadora"
-          className="w-full h-[420px] object-cover"
-        />
+    <div className="flex justify-center mb-8">
+      <img
+        src="/images/leticiafundadora-1.jpg"
+        alt="Fundadora"
+        className="w-36 h-36 rounded-full object-cover border-4 border-[#9ACD32]/30 shadow-2xl"
+      />
+    </div>
 
-        <div className="p-8">
+    <h3 className="text-2xl font-bold text-white mb-2">
+      Nome da Fundadora
+    </h3>
 
-          <h3 className="text-3xl font-bold text-white mb-2">
-            Nome da Fundadora
-          </h3>
+    <p className="text-[#9ACD32] mb-6 uppercase tracking-[0.25em] text-xs">
+      Linguista • Pesquisadora • Educadora
+    </p>
 
-          <p className="text-[#9ACD32] mb-6 uppercase tracking-wider text-sm">
-            Linguista • Pesquisadora • Educadora
-          </p>
+    <p className="text-gray-300 leading-relaxed mb-8 max-w-xl mx-auto">
+      Pesquisadora com experiência em documentação de línguas indígenas,
+      formação de professores indígenas, cooperação internacional e
+      fortalecimento cultural na Amazônia. Atuou em projetos acadêmicos,
+      institucionais e comunitários relacionados à diversidade linguística
+      e patrimônio cultural.
+    </p>
 
-          <p className="text-gray-300 leading-relaxed mb-6">
-            Pesquisadora com experiência em documentação de línguas indígenas,
-            formação de professores indígenas, cooperação internacional e
-            fortalecimento cultural na Amazônia. Atuou em projetos acadêmicos,
-            institucionais e comunitários relacionados à diversidade linguística
-            e patrimônio cultural.
-          </p>
+    <div className="flex flex-wrap justify-center gap-3">
 
-          <div className="flex flex-wrap gap-3">
+      <span className="px-4 py-2 rounded-full bg-[#163D33] text-[#9ACD32] text-sm border border-[#9ACD32]/20">
+        Línguas Indígenas
+      </span>
 
-            <span className="px-4 py-2 rounded-full bg-[#163D33] text-[#9ACD32] text-sm">
-              Línguas Indígenas
-            </span>
+      <span className="px-4 py-2 rounded-full bg-[#163D33] text-[#9ACD32] text-sm border border-[#9ACD32]/20">
+        Pesquisa
+      </span>
 
-            <span className="px-4 py-2 rounded-full bg-[#163D33] text-[#9ACD32] text-sm">
-              Pesquisa
-            </span>
+      <span className="px-4 py-2 rounded-full bg-[#163D33] text-[#9ACD32] text-sm border border-[#9ACD32]/20">
+        Amazônia
+      </span>
 
-            <span className="px-4 py-2 rounded-full bg-[#163D33] text-[#9ACD32] text-sm">
-              Amazônia
-            </span>
+    </div>
 
-          </div>
-        </div>
-      </div>
+  </div>
 
-      {/* FUNDADOR 2 */}
-      <div className="bg-white/5 border border-white/10 rounded-[2rem] overflow-hidden backdrop-blur-sm hover:border-[#9ACD32]/40 transition-all duration-300">
+  {/* FUNDADOR */}
+  <div className="bg-white/5 border border-white/10 rounded-[2rem] backdrop-blur-sm hover:border-[#9ACD32]/40 transition-all duration-300 p-8 text-center">
 
-        <img
-          src="/images/fundador-2.jpg"
-          alt="Fundador"
-          className="w-full h-[420px] object-cover"
-        />
+    <div className="flex justify-center mb-8">
+      <img
+        src="/images/fundador-2.jpg"
+        alt="Fundador"
+        className="w-36 h-36 rounded-full object-cover border-4 border-[#9ACD32]/30 shadow-2xl"
+      />
+    </div>
 
-        <div className="p-8">
+    <h3 className="text-2xl font-bold text-white mb-2">
+      Nome do Fundador
+    </h3>
 
-          <h3 className="text-3xl font-bold text-white mb-2">
-            Nome do Fundador
-          </h3>
+    <p className="text-[#9ACD32] mb-6 uppercase tracking-[0.25em] text-xs">
+      Antropólogo • Pesquisador • Consultor
+    </p>
 
-          <p className="text-[#9ACD32] mb-6 uppercase tracking-wider text-sm">
-            Antropólogo • Pesquisador • Consultor
-          </p>
+    <p className="text-gray-300 leading-relaxed mb-8 max-w-xl mx-auto">
+      Atua no desenvolvimento de projetos sociais, culturais e científicos
+      voltados às comunidades amazônicas, com experiência em políticas
+      linguísticas, documentação audiovisual e fortalecimento de redes
+      colaborativas de pesquisa e valorização cultural.
+    </p>
 
-          <p className="text-gray-300 leading-relaxed mb-6">
-            Atua no desenvolvimento de projetos sociais, culturais e científicos
-            voltados às comunidades amazônicas, com experiência em políticas
-            linguísticas, documentação audiovisual e fortalecimento de redes
-            colaborativas de pesquisa e valorização cultural.
-          </p>
+    <div className="flex flex-wrap justify-center gap-3">
 
-          <div className="flex flex-wrap gap-3">
+      <span className="px-4 py-2 rounded-full bg-[#163D33] text-[#9ACD32] text-sm border border-[#9ACD32]/20">
+        Cultura
+      </span>
 
-            <span className="px-4 py-2 rounded-full bg-[#163D33] text-[#9ACD32] text-sm">
-              Cultura
-            </span>
+      <span className="px-4 py-2 rounded-full bg-[#163D33] text-[#9ACD32] text-sm border border-[#9ACD32]/20">
+        Território
+      </span>
 
-            <span className="px-4 py-2 rounded-full bg-[#163D33] text-[#9ACD32] text-sm">
-              Território
-            </span>
+      <span className="px-4 py-2 rounded-full bg-[#163D33] text-[#9ACD32] text-sm border border-[#9ACD32]/20">
+        Cooperação
+      </span>
 
-            <span className="px-4 py-2 rounded-full bg-[#163D33] text-[#9ACD32] text-sm">
-              Cooperação
-            </span>
+    </div>
 
-          </div>
-        </div>
-      </div>
+  </div>
+
+</div>
 
     </div>
   </div>
