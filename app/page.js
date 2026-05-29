@@ -110,119 +110,83 @@ export default function Home() {
 
         </div>
 
-        {/* FEATURE CARDS */}
-        <div className="relative z-20 max-w-7xl mx-auto px-6 pb-16">
+       {/* FEATURE CARDS */}
+<div className="relative z-20 max-w-7xl mx-auto px-6 pb-16">
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
 
-          {[
-  {
-    icon: (
-      <svg width="40" height="40" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
-        <path d="M6.5 2H20v15H6.5A2.5 2.5 0 0 0 4 19.5V4.5A2.5 2.5 0 0 1 6.5 2z" />
-      </svg>
-    ),
-    title: "Documentação",
-    text: "Registro e preservação de línguas ameaçadas."
-  },
+    {[
+      {
+        icon: (
+          <svg width="40" height="40" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+            <path d="M6.5 2H20v15H6.5A2.5 2.5 0 0 0 4 19.5V4.5A2.5 2.5 0 0 1 6.5 2z" />
+          </svg>
+        ),
+        title: "Documentação",
+        text: "Registro e preservação de línguas ameaçadas."
+      },
 
-  {
-    icon: (
-      <svg width="40" height="40" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-        <circle cx="9" cy="7" r="4" />
-        <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
-        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-      </svg>
-    ),
-    title: "Formação",
-    text: "Capacitação de pesquisadores e agentes comunitários."
-  },
+      {
+        icon: (
+          <svg width="40" height="40" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+          </svg>
+        ),
+        title: "Formação",
+        text: "Capacitação de pesquisadores e agentes comunitários."
+      },
 
-  {
-    icon: (
-      <svg width="40" height="40" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-        <circle cx="12" cy="12" r="10" />
-        <line x1="2" y1="12" x2="22" y2="12" />
-        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
-      </svg>
-    ),
-    title: "Pesquisa",
-    text: "Conhecimento científico colaborativo na Amazônia."
-  },
+      {
+        icon: (
+          <svg width="40" height="40" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" />
+            <line x1="2" y1="12" x2="22" y2="12" />
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+          </svg>
+        ),
+        title: "Pesquisa",
+        text: "Conhecimento científico colaborativo na Amazônia."
+      },
 
-  {
-    icon: (
-      <svg width="40" height="40" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-        <path d="M11 20A7 7 0 0 1 4 13C4 7 12 3 12 3s8 4 8 10a7 7 0 0 1-7 7h-2z" />
-      </svg>
-    ),
-    title: "Valorização",
-    text: "Fortalecimento cultural e transmissão intergeracional."
-  }
-].map((item, index) => (
+      {
+        icon: (
+          <svg width="40" height="40" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+            <path d="M11 20A7 7 0 0 1 4 13C4 7 12 3 12 3s8 4 8 10a7 7 0 0 1-7 7h-2z" />
+          </svg>
+        ),
+        title: "Valorização",
+        text: "Fortalecimento cultural e transmissão intergeracional."
+      }
+    ].map((item, index) => (
 
-  <div
-    key={index}
-    className="bg-[#163524]/45 backdrop-blur-xl border border-white/10 rounded-[2rem] p-8 shadow-2xl hover:-translate-y-2 transition duration-300"
-  >
+      <div
+        key={index}
+        className="bg-[#163524]/45 backdrop-blur-xl border border-white/10 rounded-[2rem] p-8 shadow-2xl hover:-translate-y-2 transition duration-300"
+      >
 
-    <div className="w-20 h-20 rounded-full border border-white/30 bg-white/5 backdrop-blur-md flex items-center justify-center text-white mb-6">
-      {item.icon}
-    </div>
+        <div className="w-20 h-20 rounded-full border border-white/30 bg-white/5 backdrop-blur-md flex items-center justify-center text-white mb-6">
+          {item.icon}
+        </div>
 
-    <h3 className="text-2xl font-bold mb-4 text-white">
-      {item.title}
-    </h3>
+        <h3 className="text-2xl font-bold mb-4 text-white">
+          {item.title}
+        </h3>
 
-    <p className="text-gray-100 leading-relaxed">
-      {item.text}
-    </p>
+        <p className="text-gray-100 leading-relaxed">
+          {item.text}
+        </p>
+
+      </div>
+
+    ))}
 
   </div>
 
-))}
-
-      </section>
-
-      {/* SOBRE */}
-      <section className="py-32 text-gray-900 bg-[#f5f3ed]">
-
-        <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
-
-          <div>
-
-            <div className="uppercase tracking-[0.4em] text-emerald-800 text-sm font-semibold mb-6">
-              Sobre o IBCL Amazônia
-            </div>
-
-            <h2 className="text-5xl md:text-6xl font-black leading-tight mb-8 text-[#10281f]">
-              Ciência, território
-              <br />
-              e memória cultural.
-            </h2>
-
-            <p className="text-xl text-gray-700 leading-relaxed mb-8">
-              Trabalhamos em parceria com comunidades indígenas,
-              pesquisadores e instituições culturais para fortalecer
-              a transmissão linguística entre gerações.
-            </p>
-
-            <p className="text-lg text-gray-600 leading-relaxed mb-10">
-              Desenvolvemos iniciativas de documentação linguística,
-              arquivos audiovisuais e tecnologias digitais voltadas
-              à preservação dos patrimônios culturais amazônicos.
-            </p>
-
-            <button className="bg-emerald-800 hover:bg-emerald-700 text-white px-8 py-4 rounded-2xl font-semibold transition">
-              Conheça Nossa História
-            </button>
-
-          </div>
-
-        </div>
-
+</div>
       </section>
 
       {/* IMPACT */}
