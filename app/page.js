@@ -137,7 +137,7 @@ export default function Home() {
           </svg>
         ),
         title: "Formação",
-        text: "Capacitação de pesquisadores e agentes comunitários."
+        text: "Formação de pesquisadores e agentes comunitários."
       },
 
       {
