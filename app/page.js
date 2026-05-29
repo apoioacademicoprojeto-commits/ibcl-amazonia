@@ -228,7 +228,7 @@ export default function Home() {
           <div className="absolute inset-0">
 
             <img
-              src="pexels-ivo-brasil-335441-17502449.jpg"
+              src="/images/pexels-ivo-brasil-335441-17502449.jpg"
               alt="Amazonia"
               className="w-full h-full object-cover"
             />
@@ -274,7 +274,7 @@ export default function Home() {
         <div className="absolute inset-0">
 
           <img
-            src="Manaus AM pexels-jeangc-28587130.jpg"
+            src="/images/Manaus AM pexels-jeangc-28587130.jpg"
             alt="Amazonia"
             className="w-full h-full object-cover"
           />
