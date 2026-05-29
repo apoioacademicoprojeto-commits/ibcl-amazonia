@@ -336,7 +336,7 @@ export default function Home() {
                   Fundadores
                 </p>
 
-                <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
+                <h2 className="text-3xl md:text-6xl font-bold text-white mb-6">
                   Pessoas que constroem
                   <br />
                   pontes entre línguas,
