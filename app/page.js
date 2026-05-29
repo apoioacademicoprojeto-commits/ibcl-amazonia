@@ -111,7 +111,6 @@ export default function Home() {
         </div>
 
        {/* FEATURE CARDS */}
-  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-700 bg-gradient-to-r from-white/0 via-white/5 to-white/0 pointer-events-none" />
 <div className="relative z-20 max-w-7xl mx-auto px-6 pb-16">
 
   <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
