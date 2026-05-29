@@ -391,7 +391,7 @@ export default function Home() {
                   </h3>
 
                   <p className="text-[#9ACD32] mb-6 uppercase tracking-[0.25em] text-xs">
-                    Antropólogo • Pesquisador • Consultor
+                    Linguísta • Pesquisador • Consultor
                   </p>
 
                   <p className="text-gray-300 leading-relaxed mb-8 max-w-xl mx-auto">
